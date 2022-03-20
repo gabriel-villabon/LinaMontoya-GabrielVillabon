@@ -43,7 +43,7 @@ def initW(n):
 u =  initU(n,v,h)
 w = initW(n)
 
-def choque(u,w,h):
+def function(u,w,h):
 
     for i in range(5,30):
         u[i,5] = 0
@@ -58,7 +58,7 @@ def choque(u,w,h):
 
     return u,w
 
-u,w = choque(u,w,h)
+u,w = function(u,w,h)
 
 fig = plt.figure()
 ax = fig.add_subplot(1,1,1)
